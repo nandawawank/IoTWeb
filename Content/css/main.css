@@ -1,0 +1,392 @@
+* { padding:0; margin:0; outline:0;
+border:none;}
+body {
+	background:url(../images/bg.png) repeat;
+	font: normal 12px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+	padding: 0;
+	margin: 0;
+	border:none;
+    color:#fff;
+}
+div, img  {
+	border:none;
+}
+
+.textarea{
+	height:115px;
+}
+
+textarea { resize: none; overflow: auto;}
+
+a { text-decoration: none; }
+
+a img { border:0; }
+
+.left, .alignleft { float:left; display:inline; }
+.right, .alignright { float:right; display:inline; }
+
+.navbar-nav {
+    text-transform: uppercase;
+    background: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+  	border-radius: 10px;
+    background: rgba(255,171,171,171.171);
+}
+
+#site { 
+	width:965px; 
+	height:250px; 
+	overflow:hidden; 
+	margin:10px auto;
+	padding-bottom:300px; 
+	position:relative;
+}
+
+/* CONTACT CSS DESAIN */
+
+#contact{
+	position: relative;
+	background: url(../images/contact_sirit.gif) no-repeat;
+	padding-top: 20px;
+	width: 965px;
+	margin: 20px auto;
+	overflow: hidden;
+	}
+
+#menuhold{
+	float: right; 
+	width: 679px;
+}
+
+#menuhome a{
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+	width: 400px;
+	height: 89px;
+	background: url(../images/home.gif) no-repeat;
+}
+#menuhome a:hover{
+	background: url(../images/home_over.gif) no-repeat;
+	}
+
+#menuprojects a{
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+	width: 146px;
+	height: 89px;
+	background: url(../images/projects.gif) no-repeat;
+}
+#menuprojects a:hover{
+	background: url(../images/projects_over.gif) no-repeat;
+}
+
+#menuabout a{
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+	width: 156px;
+	height: 89px;
+	background: url(../images/about.gif) no-repeat;
+}
+#menuabout a:hover{
+	background: url(../images/about_over.gif) no-repeat;
+}
+
+#menublog a{
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+	width: 105px;
+	height: 89px;
+	background: url(../images/blog.gif) no-repeat;
+}
+#menublog a:hover{
+	background: url(../images/blog_over.gif) no-repeat;
+}
+
+#menucontactcurrent{
+	margin-top: 10px;
+	margin-left: 0px;
+	float: left;
+	width: 142px;
+	height: 89px;
+	background: url(../images/contact_over.gif) no-repeat;
+}
+
+
+#logopurple{
+	background: url(../images/logo_purple.png) no-repeat;
+	width: 216px;
+	height: 206px;
+	margin-left: 10px;
+}
+
+.box {
+	width: 216px;
+	height: 206px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #ff9;
+    background: rgba(255,255,171,0.9);
+}
+
+#phone{
+	background: url(../images/phone.png) no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 2px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+#mail{
+	background: url(../images/mail.png) no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 2px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+#mail a{
+color: #fff;
+}
+#mail a:hover{
+color: #9f40a2;
+}
+#address{
+	background: url(../images/home.png) no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 40px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.purpletext{
+	color: #f70006;
+	font-weight: bold;
+}
+#formholder{
+	float: right;
+	margin-top: -350px;
+	width: 650px;
+	height: 250px;
+	padding: 25px;
+}
+ 
+input{
+	
+	width: 235px;
+	height: 48px;
+	margin-top: 20px;
+	padding: 0px 10px 2px 15px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #fff;
+	background-color: #212121;
+	border: none;
+} 
+
+input:hover{
+	
+} 
+
+textarea{
+	font-size: 14px;
+	padding: 15px 2px 2px 10px;
+	margin-top: -190px;
+	margin-right: 70px;
+	width: 290px;
+	height: 151px;
+	color: #fff;
+	border: none;
+	float: right;
+    background: rgba(255,255,171,0.9);
+}
+
+.txt{
+	margin-top: -190px;
+	color: #212121;
+}
+
+#send a{
+	background: url(../images/send_btn.gif) no-repeat;
+	width: 119px;
+	height: 30px;
+	float: right;
+	margin-top: -25px;
+	margin-left: 10px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-top: 0;
+}
+
+#send a:hover{
+	background: url(../images/send_btn_over.gif) no-repeat;
+
+}
+
+#send1 {
+	float: right;
+	border-radius: 10px;
+	margin-right: 70px;
+	margin-top: -50px;
+	}
+	
+#jk {
+	width: 30px;
+	height: 10px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 7px;
+	padding: 0px;
+	
+	}
+	
+#jkjk {
+	width: 235px;
+	height: 55px;
+	font-weight:bold;
+	color: #212121;
+	border: none;
+	margin-top: 20px;
+	background: rgba(255,255,171,0.9);
+	}
+	
+select{
+	width: 235px;
+	height: 48px;
+	margin-top: 13px;
+	padding: 0px 0px 2px 15px;
+	font-size: 13px;
+	font-weight:bold;
+	color: #212121;
+	border: none;
+	background: rgba(255,255,171,0.9);
+} 
+
+/*________________________*/
+
+/*CSS ISI BUKUTAMU DESAIN*/
+
+
+input{
+
+	width: 235px;
+	height: 48px;
+	margin-top: 20px;
+	padding: 0px 10px 2px 15px;
+	font-size: 14px;
+	color: #212121; /*warna tulisan*/
+	border: none;
+	background: rgba(255,255,171,0.9); /*warna kolom untuk buku tamu*/
+} 
+
+textarea{
+	
+	background-color: 
+	font-size: 14px;
+	padding: 15px 2px 2px 15px;
+	color: #fff;
+	margin-top: -122px;
+	margin-left: 13px;
+	width: 290px;
+	height: 151px;
+	border: none;
+}
+  
+#send a{
+	
+
+	width: 103px;
+	height: 38px;
+	float: right;
+	margin-top: -55px;
+	margin-left: 10px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+	padding-top: 0;
+}
+
+#send a:hover{
+
+	background-color: #ff9;
+}
+
+#send1{
+
+	margin-top: -90px;
+	width: 100px;
+	height: 30px;
+}
+
+#send1:hover{
+
+	background: rgba(255,171,171,171.171);
+}
+
+/*_______________________*/
+
+h1{
+	font-size: 25px;
+}
+
+
+#extraDiv1 {
+	background-image: url(platform.html);
+	position: absolute;
+	top: 270px;
+	right: 85px;
+	width: 85px;
+	height: 184px;
+	margin: -85px;
+}
+
+.footerColumn {
+position: relative;
+width: 280px;
+}
+#facebook {
+height: 105px;
+left: 620px;
+position: relative;
+top: 20px;
+width: 296px;
+}
+.facebook {
+background: url(../images/facebook.png) no-repeat;
+display: block;
+height: 105px;
+outline-style: none;
+text-indent: -9999px;
+width: 296px;
+}
+#twitter {
+height: 143px;
+left: 500px;
+position: relative;
+text-indent: 9999px;
+top: 40px;
+width: 371px;
+}
+.twitter {
+background: url(../images/twitter.png) no-repeat;
+display: block;
+height: 143px;
+outline-style: none;
+text-indent: 9999px;
+width: 371px;
+}
+
+.footerBottomSection{
+	background:#212121;
+	padding:10px;
+	color:#fff
+}
+

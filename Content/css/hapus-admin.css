@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-repeat: initial initial;
+  background-position: initial initial;
+  background: rgba(171,171,171,171.255);
+  font: normal 12px "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+input{
+
+	width: 100px;
+  padding: 10px;
+}
+
+
+[class*="col-"] {
+  
+  width: 350px;
+  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #fff;  
+}
+
+.box{
+
+	letter-spacing: 3px;
+  border-radius: 10px;
+	width: 300px;
+	height: 250px;
+	margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 30px 15px;
+  padding-left: 10px;
+  background: #ff9;
+  background: rgba(89,171,255,159.27);
+}
+
+.box2{
+
+	width: 910px;
+  height: 460px;
+  margin-left: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  background: #ff9;
+  background: rgba(89,171,255,159.27);
+  border: 1px solid #fff;  
+}
+
+.btn{
+
+    background:#212121;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 190px;
+    padding: 10px;
+    color: #fff;
+}
+#username{
+
+  width: 290px;
+  border-bottom-radius-left: 10px;
+  border-bottom-radius-right: 10px;
+  margin-top: 20px;
+}
+
+#password{
+
+  width: 290px;
+  border-bottom-radius-left: 10px;
+  border-bottom-radius-right: 10px;
+  margin-top: 20px;
+}
+.btn-group-vertical{
+
+	color:#fff;
+	font-size: 20px;
+}
+.btnbtn-defaul{
+
+	padding: 8px;
+	width: 250px;
+	display: block;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 20px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #fff;  
+}
+
+.navbar-nav {
+	color: #fff;
+	background: #ff9;
+    margin-left: 50px;
+    font-weight: 400px;
+    margin-right: 50px;
+    letter-spacing: 3px;
+  	border-radius: 10px;
+  	text-transform: uppercase;
+    background: rgba(89,171,255,159.27);
+}
+
+#formholder{
+	margin-top: -355px;
+	margin-left: 355px;
+	width: 650px;
+	height: 250px;
+	padding: 25px;
+}
+
+.table{
+  width: 500px;
+  margin-top: -90px;
+  margin-left: 355px;
+  font-size: 10px;
+  background-color: #fff;
+}
+
+th{
+  width: 900px;
+  border-radius: 10px;
+  background: rgba(89,171,255,159.27);
+  color:#fff;
+}
+
+tr{
+
+  color: black;
+}
+
+.footerBottomSection{
+	color: #fff;
+	height: 35px;
+	background:#212121;
+	padding:18px 0;
+	margin-top: 230px;
+	padding-top: 40px;
+}
